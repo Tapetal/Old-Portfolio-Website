@@ -42,7 +42,7 @@ export default function Project() {
             <div className="font-extrabold text-center w-[280px] sm:w-[340px] md:w-fit mx-auto relative flex flex-col md:flex-row items-center justify-center text-2xl sm:text-3xl mb-16">
                 <span className="gradient-text">Here&apos;s some things I have built</span>
                 <div className="absolute right-1 top-13 sm:right-2 sm:top-15 md:-right-22 md:top-6 -rotate-12 w-32 bg-gradient-to-r from-amber-400 to-orange-500 text-white text-sm font-normal rounded-full px-4 py-1.5 shadow-lg animate-glow">
-                    2024 - 2025
+                    2022 - {new Date().getFullYear()}
                 </div>
             </div>
 
