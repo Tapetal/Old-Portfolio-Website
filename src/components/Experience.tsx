@@ -4,6 +4,21 @@ import ScrollReveal from './ui/ScrollReveal'
 export default function Experience() {
     const experiences = [
         {
+            role: "Engineering & Technology Intern",
+            company: "Noma Service Consolidated Ltd",
+            location: "Abuja, FCT, Nigeria",
+            period: "April 2026 - Present",
+            description: "Serving in the Engineering & Technology department at Noma Service Consolidated Ltd, an agri-tech firm empowering over 15,000 smallholder farmers across Nigeria, responsible for driving the design, development, and deployment of NOMA's digital infrastructure and platforms.",
+            achievements: [
+                "Contributing to the development and maintenance of the Thrum platform",
+                "NOMA website development, maintenance, and performance optimization",
+                "Maintaining code repositories, technical documentation, and internal workflows",
+                "Cybersecurity, access control, system integrations, and digital asset management"
+            ],
+            color: "green"
+        },
+
+        {
             role: "Bachelor of Science in Information Technology (Hons)",
             company: "Lincoln University",
             location: "Abuja, FCT, Nigeria",
@@ -63,6 +78,12 @@ export default function Experience() {
 
     const getColorClasses = (color: string) => {
         const colors = {
+            green: {
+                border: 'border-emerald-400/30 hover:border-emerald-400/60',
+                bg: 'from-cyan-500 via-emerald-400 to-emerald-500',
+                text: 'text-emerald-300',
+                glow: 'bg-emerald-400/20'
+            },
             purple: {
                 border: 'border-purple-500/30 hover:border-purple-500/60',
                 bg: 'from-purple-500 to-pink-500',
